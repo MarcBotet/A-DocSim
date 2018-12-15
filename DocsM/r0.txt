@@ -1,0 +1,28 @@
+example 310 Figure 36 shows part of a signature matrix of 12 rows divided
+into four bands of three rows each the second and fourth of the explicitly
+shown columns each have the column vector in the first band so they
+will definitely hash to the same bucket in the hashing for the first band thus
+regardless of what those columns look like in the other three bands, this pair
+of columns will be a candidate pair it is possible that other columns such as
+the first two shown explicitly will also hash to the same bucket according to
+the hashing of the first band however since their column vectors are different
+and and there are many buckets for each hashing we expect the
+chances of an accidental collision to be very small we shall normally assume
+that two vectors hash to the same bucket if and only if they are identical
+two columns that do not agree in band 1 have three other chances to become
+a candidate pair they might be identical in any one of these other bands
+notice that several of the distance measures introduced in this section are
+not euclidean spaces a property of euclidean spaces that we shall find
+important when we take up clustering in chapter 7 is that the average
+of points in a euclidean space always exists and is a point in the space
+however consider the space of sets for which we defined the Jaccard distance
+the notion of the average of two sets makes no sense likewise
+the space of strings where we can use the edit distance does not let us
+take the average of strings
+vector spaces for which we suggested the cosine distance may or may
+not be euclidean if the components of the vectors can be any real numbers
+then the space is euclidean however if we restrict components to
+be integers then the space is not euclidean notice that for instance we
+cannot find an average of the vectors and in the space of vectors
+with two integer components although if we treated them as members of
+the two dimensional euclidean space then we could say that their average

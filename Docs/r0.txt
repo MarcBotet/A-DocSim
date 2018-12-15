@@ -1,0 +1,1 @@
+basada en un algorisme descrit al article adjunt amb el anunciat  aquest algorisme ens ha servit per a poder calcular la relavancia de una entitat amb les altres entitats de aquesta manera hem pogut muntar el perfil de una entitat mostrant la seva informacio rellavant utlitzan la mesura anomenada hetesim
