@@ -1,4 +1,17 @@
 
+Algorithmics in Facultat d'Informàtica de Barcelona.
+
+Jaccard, jaccard minhash, Locality-Sensitive Hashing
+
+Authors:
+
+Marc Botet Colomer
+
+Roberto Fernández Reguero
+
+Enrique Alexandre González Sequeira
+
+
 Per compilar executem la comanda "make".
 
 Per executar:
